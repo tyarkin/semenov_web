@@ -1,0 +1,171 @@
+body{
+	font-family: 'Arial', sans-serif;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow-x: hidden;
+}
+header{
+	background-color: red;
+	color: white;
+	padding: 10px 0;
+	text-align: center;
+	user-select: none;
+}
+h1 span{
+	background-color: white;
+	position: relative;
+	padding-top: 515px;
+	padding-bottom: 1155px;
+	padding-left: 25px;
+	padding-right: 905px;
+	margin: -25px;
+	z-index: -1;
+}
+.button-container{
+	position: relative;
+	width: 1000px;
+	user-select: none;
+}
+button{
+	transition: 0.3s;
+	position: relative;
+	width: 226px;
+	height: 224px;
+	left: -14px;
+	border-radius: 21px;
+	border: 10px solid #FF2B2B;
+	box-shadow: 0 0 10px red;
+	cursor: pointer;
+	color: white;
+	background-size: contain;
+	background-position: bottom;
+	text-align: center;
+	font-size: 23px;
+	font-weight: bold;
+	margin-left: 11px;
+}
+.moon_or_sun{
+	background-image: url(moon_or_sun.PNG);
+}
+.rashodites{
+	background-image: url(Rashodites.PNG);
+}
+.hisnikvmore{
+	background-image: url(hisnikvmore.PNG);
+	position: relative;
+	top: -14px;
+}
+.fly_mouse{
+	background-image: url(fly_mouse.PNG);
+}
+.button{
+	height: 112px;
+	background-color: #F00000;
+}
+.button:hover{
+	height: 122px;
+}
+button:hover{
+	width: 236px;
+	height: 234px;
+	box-shadow: 0 0 30px red;
+	font-size: 24px;
+}
+img{
+	z-index: -2;
+	position: absolute;
+	width: 500px;
+	padding-bottom: 50px;
+	left: -75px;
+	user-select: none;
+}
+span img{
+	z-index: -2;
+	position: absolute;
+	width: 490px;
+	height: 980px;
+	left: -80px;
+	user-select: none;
+}
+.right{
+	z-index: -3;
+	position: absolute;
+	width: 490px;
+	height: 980px;
+	left: 1150px;
+	user-select: none;
+}
+.main_games{
+	z-index: -2;
+	position: absolute;
+	width: 600px;
+	height: 2894px;
+	transform: rotate(180deg);
+	top: -1440px;
+	left: -160px;
+	user-select: none;
+}
+.main_games_right{
+	z-index: -3;
+	position: absolute;
+	width: 600px;
+	height: 2894px;
+	transform: rotate(180deg);
+	left: 1150px;
+	top: -1440px;
+	user-select: none;
+}
+nav ul li{
+	display: inline;
+	margin-right: 10px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+nav ul li a:hover{
+	background-color: #FF5252;
+}
+main{
+	margin-left: 285px;
+}
+main section h1{
+	font-size: 26px;
+	color: red;
+	font-weight: bold;
+}
+main section h3{
+	font-weight: normal;
+	font-size: 21px;
+	max-width: 950px;
+}
+section li{
+	color: black;
+	list-style-type: square;
+}
+p{
+	margin: 1px;
+}
+main p{
+	text-indent: 32px;
+}
+footer{
+	background-color: red;
+	color: white;
+	text-align: center;
+	padding: 14px 0;
+	user-select: none;
+	position: absolute;
+	margin-top: 30px;
+	width: 100%;
+	height: 2.5%;
+}
+.footertop{
+	position: absolute;
+	top: 1450px;
+}
+footer span{
+	user-select: text;
+}
